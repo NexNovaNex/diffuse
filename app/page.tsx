@@ -239,6 +239,83 @@ const Page: FC = () => {
           </div>
         </div>
       </section>
+      
+      {/* Before & After Transformations Section */}
+      <section className="w-full flex justify-center bg-gray-50 py-8 md:py-16 px-2 md:px-4">
+        <div className="max-w-6xl w-full">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8">Real Transformations from Real People</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Transformation 1 */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <div className="relative">
+                <Image 
+                  src="/Newimage1.jpg" 
+                  alt="Newimage1" 
+                  className="w-full h-48 object-cover" 
+                  width={300} 
+                  height={200} 
+                />
+                <div className="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">3 Months</div>
+              </div>
+              <div className="p-4">
+              </div>
+            </div>
+
+            {/* Transformation 2 */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <div className="relative">
+                <Image 
+                  src="/Newimage2.jpg" 
+                  alt="Newimage2" 
+                  className="w-full h-48 object-cover" 
+                  width={300} 
+                  height={200} 
+                />
+                <div className="absolute top-2 left-2 bg-green-600 text-white text-xs px-2 py-1 rounded">12 Months</div>
+              </div>
+            </div>
+
+            {/* Transformation 3 */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <div className="relative">
+                <Image 
+                  src="/Newimage3.jpg" 
+                  alt="Newimage3" 
+                  className="w-full h-48 object-cover" 
+                  width={300} 
+                  height={200} 
+                />
+                <div className="absolute top-2 left-2 bg-purple-600 text-white text-xs px-2 py-1 rounded">6 Months</div>
+              </div>
+              <div className="p-4">
+                <div className="flex justify-between text-xs text-gray-500 mb-2">
+                </div>
+              </div>
+            </div>
+
+            {/* Transformation 4 */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+              <div className="relative">
+                <Image 
+                  src="/Newimage4.jpg" 
+                  alt="Newimage4" 
+                  className="w-full h-48 object-cover" 
+                  width={300} 
+                  height={200} 
+                />
+                <div className="absolute top-2 left-2 bg-orange-600 text-white text-xs px-2 py-1 rounded">2 Months</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-8">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition shadow-lg" onClick={() => document.getElementById('pricing-section')?.scrollIntoView({ behavior: 'smooth' })}>
+              Start Your Transformation Today
+            </button>
+          </div>
+        </div>
+      </section>
       {/* Founder Story Section */}
       <section className="w-full flex justify-center bg-blue-50 py-4 md:py-16 px-2 md:px-4">
         <div className="max-w-5xl w-full flex flex-col md:flex-row gap-10 items-start">
@@ -264,20 +341,20 @@ const Page: FC = () => {
                         </div>
             <div className="text-gray-700 mb-4">
             Some things helped… for a week.<br/><br/>
-            But the side effects kicked in. My mood changed. Libido crashed. I didn’t feel like myself.<br/><br/>
+            But the side effects kicked in. My mood changed. Libido crashed. I didn't feel like myself.<br/><br/>
             Others? They just made me feel more hopeless.<br/><br/>
-            Oils, pills, shampoos, influencers promising “miracles”… All noise. No change.<br/><br/>
+            Oils, pills, shampoos, influencers promising "miracles"… All noise. No change.<br/><br/>
               <ul className="list-none pl-0 mb-4">
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I avoided photos</li>
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I wore hats every day — even indoors</li>
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I stopped flirting and going on dates</li>
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I felt like I didn't recognize myself anymore</li>
               </ul>
-              And then one night, while scrolling Reddit at 2am, I saw this guy say, “It’s not your hair. It’s the environment it’s trying to grow in.” That hit me. Hard.
+              And then one night, while scrolling Reddit at 2am, I saw this guy say, "It's not your hair. It's the environment it's trying to grow in." That hit me. Hard.
               <br/><br/>
-              It wasn’t that my hair had just given up. It was that my scalp — the foundation — had been under attack for years. Inflammation. Hormonal chaos. Starvation.
+              It wasn't that my hair had just given up. It was that my scalp — the foundation — had been under attack for years. Inflammation. Hormonal chaos. Starvation.
               <br/><br/>
-              No wonder nothing worked. I’d been trying to regrow hair in dead soil.
+              No wonder nothing worked. I'd been trying to regrow hair in dead soil.
                         </div>
                       </div>
           {/* Right: Before/After */}
@@ -336,8 +413,8 @@ const Page: FC = () => {
                 
         <div className="max-w-4xl w-full flex flex-col md:flex-row gap-8 items-start">
           <div className="flex-1">
-            <div className="italic text-2xl md:text-3xl text-green-800 font-bold mb-4">For diffuse thinners like me, it’s even harder to catch. There’s no dramatic recession. No clear bald spot. Just this slow, creeping loss of density — until one day, bright lights hit your scalp and you can see right through.</div>
-            <div className="text-gray-700">That’s why nothing worked. Because everything I’d been trying was designed for guys with receding hairlines or total loss — not for people like me, who were losing coverage strand by strand.
+            <div className="italic text-2xl md:text-3xl text-green-800 font-bold mb-4">For diffuse thinners like me, it's even harder to catch. There's no dramatic recession. No clear bald spot. Just this slow, creeping loss of density — until one day, bright lights hit your scalp and you can see right through.</div>
+            <div className="text-gray-700">That's why nothing worked. Because everything I'd been trying was designed for guys with receding hairlines or total loss — not for people like me, who were losing coverage strand by strand.
             </div>
             <div className="text-gray-700">
             So after that Reddit comment, I went full rabbit hole mode. PubMed articles. YouTube dermatologists. Trichology blogs. Forum debates. 2AM deep dives. I became obsessed with one question: What actually helps guys like me — guys with diffuse thinning?<br/><br/>
@@ -351,7 +428,7 @@ const Page: FC = () => {
       <section className="w-full flex flex-col items-center bg-purple-50 py-4 md:py-16 px-2 md:px-4">
         <div className="max-w-5xl w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-purple-900 mb-2">I Kept Seeing the Same Ingredients — Over and Over — And It Finally Clicked</h2>
-          <p className="text-center text-purple-700 mb-10">These weren’t trendy shampoo swaps or influencer “hair hacks.” They were grounded in real biology — and actually built for guys like me, the ones dealing with diffuse thinning and tired of wasting money on things that never reached the root. I kept seeing the same ingredients come up over and over again: saw palmetto, caffeine, apigenin, microneedling. Not magic — but mechanisms. Not hype — but real interventions that targeted hormones, improved blood flow, and repaired the scalp itself. That’s when it hit me: it was never about forcing hair to grow — it was about rebuilding the environment it grows from.</p>
+          <p className="text-center text-purple-700 mb-10">These weren't trendy shampoo swaps or influencer "hair hacks." They were grounded in real biology — and actually built for guys like me, the ones dealing with diffuse thinning and tired of wasting money on things that never reached the root. I kept seeing the same ingredients come up over and over again: saw palmetto, caffeine, apigenin, microneedling. Not magic — but mechanisms. Not hype — but real interventions that targeted hormones, improved blood flow, and repaired the scalp itself. That's when it hit me: it was never about forcing hair to grow — it was about rebuilding the environment it grows from.</p>
           <div className="grid grid-cols-3 gap-3 md:gap-6 mb-8">
             {/* Saw Palmetto */}
             <div className="flex flex-col items-center text-center">
@@ -419,7 +496,7 @@ const Page: FC = () => {
               <span className="text-2xl mt-1">✅</span>
               <div>
                 <div className="font-bold text-gray-900 mb-1">Not built for the "just shave it" crowd</div>
-                <div className="text-gray-600 text-sm">OneFix Labs was made for guys with diffuse thinning — the slow, silent kind — who’ve tried everything and still can’t look in the mirror without flinching</div>
+                <div className="text-gray-600 text-sm">OneFix Labs was made for guys with diffuse thinning — the slow, silent kind — who've tried everything and still can't look in the mirror without flinching</div>
               </div>
             </div>
             {/* Not another gimmick */}
@@ -435,7 +512,7 @@ const Page: FC = () => {
               <span className="text-2xl mt-1">🧠</span>
               <div>
                 <div className="font-bold text-gray-900 mb-1">Not for guys with obvious bald spots</div>
-                <div className="text-gray-600 text-sm">This is for the ones losing density across the top, who’ve tracked every strand, feared bright lights, and still felt dismissed by “experts.”</div>
+                <div className="text-gray-600 text-sm">This is for the ones losing density across the top, who've tracked every strand, feared bright lights, and still felt dismissed by "experts."</div>
               </div>
             </div>
             {/* Created because nothing else worked */}
@@ -452,7 +529,7 @@ const Page: FC = () => {
             <span className="text-2xl mt-1">🔒</span>
             <div>
               <div className="font-bold text-gray-900 mb-1">Made for us — not them</div>
-              <div className="text-gray-600 text-sm">For the guys who avoided outings, skipped photos, felt invisible under harsh lighting — and still believe it’s not too late to take back control.</div>
+              <div className="text-gray-600 text-sm">For the guys who avoided outings, skipped photos, felt invisible under harsh lighting — and still believe it's not too late to take back control.</div>
             </div>
           </div>
         </div>
@@ -500,7 +577,7 @@ const Page: FC = () => {
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🪞</span>
               <div className="font-bold text-green-700 mb-1">Mirror Relief</div>
-              <div className="text-gray-700 text-sm">You’ll catch your reflection… and not flinch. No more scanning your scalp under brutal lighting, wondering if it’s getting worse.</div>
+              <div className="text-gray-700 text-sm">You'll catch your reflection… and not flinch. No more scanning your scalp under brutal lighting, wondering if it's getting worse.</div>
             </div>
             {/* Full, Feminine Hair */}
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
@@ -524,13 +601,13 @@ const Page: FC = () => {
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🔁</span>
               <div className="font-bold text-green-700 mb-1">Steady Progress</div>
-              <div className="text-gray-700 text-sm">Hair doesn’t just sprout — the whole system starts working again. And it feels less like blind hope, more like real momentum.</div>
+              <div className="text-gray-700 text-sm">Hair doesn't just sprout — the whole system starts working again. And it feels less like blind hope, more like real momentum.</div>
             </div>
             {/* Dating Confidence */}
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🛠️</span>
               <div className="font-bold text-green-700 mb-1">Made for Hair Loss Sufferers</div>
-              <div className="text-gray-700 text-sm">This isn’t for everyone. It’s for the ones who were dismissed, overlooked, or told to “just wait it out.” OneFix Labs was built for us.</div>
+              <div className="text-gray-700 text-sm">This isn't for everyone. It's for the ones who were dismissed, overlooked, or told to "just wait it out." OneFix Labs was built for us.</div>
             </div>
           </div>
           <div className="flex justify-center">
@@ -775,17 +852,17 @@ const Page: FC = () => {
               <style jsx>{`
                 .letdown-strong-text { color: #1a1a1a; }
               `}</style>
-              <span className="letdown-strong-text">For decades, diffuse thinning wasn’t even part of the conversation. Hair loss was brushed off as just “part of getting older.” Something you were supposed to laugh off, shave off, or just live with.<br/><br/>
+              <span className="letdown-strong-text">For decades, diffuse thinning wasn't even part of the conversation. Hair loss was brushed off as just "part of getting older." Something you were supposed to laugh off, shave off, or just live with.<br/><br/>
               Doctors shrugged.<br/><br/>
               Dermatologists focused on receding hairlines and bald spots — not fading density across the top.<br/><br/>
               Drugstore shelves filled with copy-paste shampoos. Forums offered hacks, oils, and sketchy stacks.<br/><br/>
               But none of it actually worked — because none of it addressed what was really happening beneath the surface.<br/><br/>
-              DHT overload. Blood-starved follicles. Hormonal blockades. Inflammation. That’s the real reason density fades strand by strand — and why OneFix Labs was built to fix it.</span>
+              DHT overload. Blood-starved follicles. Hormonal blockades. Inflammation. That's the real reason density fades strand by strand — and why OneFix Labs was built to fix it.</span>
             </div>
           </div>
           <div className="flex items-center gap-2 mb-2">
             <span className="text-green-600 text-lg">●</span>
-            <span className="font-bold text-lg md:text-xl text-gray-900">Diffuse Thinning Isn’t Just About Hair Loss — It's a System Breakdown.</span>
+            <span className="font-bold text-lg md:text-xl text-gray-900">Diffuse Thinning Isn't Just About Hair Loss — It's a System Breakdown.</span>
           </div>
           <div className="text-gray-900 mb-4">The truth is, men with hair loss face a perfect storm beneath the surface — deep in the biology of their scalp:</div>
           <ul className="mb-4">
