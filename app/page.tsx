@@ -96,11 +96,11 @@ const Page: FC = () => {
           {/* Left: Text Content */}
           <div className="flex-1 max-w-xl order-2 md:order-1">
             <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-4 text-slate-900">
-            Sick of Watching Your Hairline Fade? <span className="text-slate-900 font-extrabold">The Daily Stress, Mirror Avoidance, and That Gut-Punch Feeling When Nothing Works… Yeah, We've Been There.</span>… We Get It.
+            Sick of Seeing Your Scalp Under Bright Lights? Stop the silent thinning. Regrow density where it counts — without meds, fluff, or false hope.
             </h1>
             <div className="flex items-center gap-2 text-blue-700 font-medium mb-2">
               <span className="text-lg">🧠</span>
-              The First System Built to Fix Hair Loss at the Root
+              The First System Built for Diffuse Thinning
             </div>
             {/* Mobile Image - Only shows on mobile */}
             <div className="flex md:hidden justify-center my-6">
@@ -112,8 +112,8 @@ const Page: FC = () => {
               <div className="bg-white rounded-2xl shadow p-4 flex items-start gap-3 border border-slate-200">
                 <span className="text-2xl mt-1">🔬</span>
                 <div>
-                  <div className="font-semibold text-slate-900">Engineered for Real Male Pattern Baldness*</div>
-                  <div className="text-slate-600 text-sm">Targets the hormonal overload and follicle damage — not just patch it up.</div>
+                  <div className="font-semibold text-slate-900">Engineered for Diffuse Thinning</div>
+                  <div className="text-slate-600 text-sm">Targets the real culprits: DHT overload.</div>
                 </div>
               </div>
               <div className="bg-white rounded-2xl shadow p-4 flex items-start gap-3 border border-slate-200">
@@ -165,7 +165,7 @@ const Page: FC = () => {
       <section className="w-full flex justify-center bg-white py-4 md:py-16 px-2 md:px-4">
         <div className="max-w-4xl w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-2">Confidence with OneFix Labs</h2>
-          <p className="text-center text-gray-600 mb-8">"See how real guys dealing with hair loss are finally getting their confidence — and identity — back. No pills. No fluff. Just results that feel real.</p>
+          <p className="text-center text-gray-600 mb-8">See how real guys dealing with diffuse thinning are finally taking back control — and looking like themselves again.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {/* Review 1 */}
             <div className="bg-blue-50 rounded-xl shadow p-2 md:p-4 flex flex-row items-center gap-3 md:gap-6 mb-3">
@@ -252,23 +252,32 @@ const Page: FC = () => {
             Not because I set out to build a brand… but because I hit a breaking point.<br/><br/>
               For years, I thought I was just being dramatic about my hair.<br/><br/>
               I figured it was normal. Genetic. Part of getting older.<br/><br/>
-              At first, it was just a little thinning.<br/><br/>
-              Then it became constant scalp checks. Obsessing. Comparing. Avoiding eye contact.<br/><br/>
-              It felt like I was disappearing… strand by strand..
+              At first, it was barely noticeable — a little thinning, maybe bad lighting<br/><br/>
+              But then came the constant mirror checks.<br/><br/>
+              Running my fingers through my scalp 20 times a day.<br/><br/>
+              Dodging bright lights. Avoiding eye contact. Comparing myself to every guy with a full head of hair.<br/><br/>
+              It felt like disappearing — strand by strand...
 
                         </div>
             <div className="bg-white border-l-4 border-blue-400 rounded-r-xl p-2 md:p-4 mb-4 text-blue-700 font-medium shadow">
             I tried everything — oils, shampoos, Reddit stacks, even Minoxidil..
                         </div>
             <div className="text-gray-700 mb-4">
-            Some things helped… for a week. But left side effects and my mood changed. Most just made me feel more hopeless.<br/><br/>
+            Some things helped… for a week.<br/><br/>
+            But the side effects kicked in. My mood changed. Libido crashed. I didn’t feel like myself.<br/><br/>
+            Others? They just made me feel more hopeless.<br/><br/>
+            Oils, pills, shampoos, influencers promising “miracles”… All noise. No change.<br/><br/>
               <ul className="list-none pl-0 mb-4">
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I avoided photos</li>
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I wore hats every day — even indoors</li>
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I stopped flirting and going on dates</li>
                 <li className="flex items-center gap-2 text-blue-600 font-medium"><span className="text-xl">✗</span> I felt like I didn't recognize myself anymore</li>
               </ul>
-              And then one night, while scrolling Reddit at 2am… I saw this guy say, "It's not your hair. It's the environment it's trying to grow in." That hit me. Hard.
+              And then one night, while scrolling Reddit at 2am, I saw this guy say, “It’s not your hair. It’s the environment it’s trying to grow in.” That hit me. Hard.
+              <br/><br/>
+              It wasn’t that my hair had just given up. It was that my scalp — the foundation — had been under attack for years. Inflammation. Hormonal chaos. Starvation.
+              <br/><br/>
+              No wonder nothing worked. I’d been trying to regrow hair in dead soil.
                         </div>
                       </div>
           {/* Right: Before/After */}
@@ -327,11 +336,13 @@ const Page: FC = () => {
                 
         <div className="max-w-4xl w-full flex flex-col md:flex-row gap-8 items-start">
           <div className="flex-1">
-            <div className="italic text-2xl md:text-3xl text-green-800 font-bold mb-4">For the first time, I understood why nothing ever worked: Every product I tried was treating the symptom — not the system. It wasn't about the hair I lost. It was about why my scalp stopped supporting growth in the first place.</div>
+            <div className="italic text-2xl md:text-3xl text-green-800 font-bold mb-4">For diffuse thinners like me, it’s even harder to catch. There’s no dramatic recession. No clear bald spot. Just this slow, creeping loss of density — until one day, bright lights hit your scalp and you can see right through.</div>
+            <div className="text-gray-700">That’s why nothing worked. Because everything I’d been trying was designed for guys with receding hairlines or total loss — not for people like me, who were losing coverage strand by strand.
+            </div>
             <div className="text-gray-700">
-            So after that Reddit comment, I went full rabbit hole mode. PubMed. YouTube derms. Trichology blogs. Forum debates. 2AM deep dives. I became obsessed with one question: What actually helps guys like me?<br/><br/>
+            So after that Reddit comment, I went full rabbit hole mode. PubMed articles. YouTube dermatologists. Trichology blogs. Forum debates. 2AM deep dives. I became obsessed with one question: What actually helps guys like me — guys with diffuse thinning?<br/><br/>
             Some talked about blocking DHT. Others swore by circulation boosters. One guy said caffeine only works if you also microneedle. Another broke down PGD₂ like it was a villain in a Marvel movie.<br/><br/>
-            So after that Reddit comment, I went full rabbit hole mode. PubMed. YouTube derms. Trichology blogs. Forum debates. 2AM deep dives. I became obsessed with one question: What actually helps guys like me?
+            
             </div>
           </div>
         </div>
@@ -340,7 +351,7 @@ const Page: FC = () => {
       <section className="w-full flex flex-col items-center bg-purple-50 py-4 md:py-16 px-2 md:px-4">
         <div className="max-w-5xl w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-purple-900 mb-2">I Kept Seeing the Same Ingredients — Over and Over — And It Finally Clicked</h2>
-          <p className="text-center text-purple-700 mb-10">These weren't trendy shampoo swaps or influencer "hair hacks." They were grounded in real biology — and built for guys like me, the ones who were tired of wasting money on stuff that never reached the root. Saw Palmetto. Caffeine. Apigenin. Microneedling. Not magic — but mechanisms. Not hype — but hormones, blood flow, and scalp repair. That's when it hit me: It wasn't about forcing hair to grow. It was about rebuilding the place it grows from.</p>
+          <p className="text-center text-purple-700 mb-10">These weren’t trendy shampoo swaps or influencer “hair hacks.” They were grounded in real biology — and actually built for guys like me, the ones dealing with diffuse thinning and tired of wasting money on things that never reached the root. I kept seeing the same ingredients come up over and over again: saw palmetto, caffeine, apigenin, microneedling. Not magic — but mechanisms. Not hype — but real interventions that targeted hormones, improved blood flow, and repaired the scalp itself. That’s when it hit me: it was never about forcing hair to grow — it was about rebuilding the environment it grows from.</p>
           <div className="grid grid-cols-3 gap-3 md:gap-6 mb-8">
             {/* Saw Palmetto */}
             <div className="flex flex-col items-center text-center">
@@ -408,7 +419,7 @@ const Page: FC = () => {
               <span className="text-2xl mt-1">✅</span>
               <div>
                 <div className="font-bold text-gray-900 mb-1">Not built for the "just shave it" crowd</div>
-                <div className="text-gray-600 text-sm">OneFix Labs was made for guys who've tried everything — and still can't look in the mirror without flinching.</div>
+                <div className="text-gray-600 text-sm">OneFix Labs was made for guys with diffuse thinning — the slow, silent kind — who’ve tried everything and still can’t look in the mirror without flinching</div>
               </div>
             </div>
             {/* Not another gimmick */}
@@ -423,8 +434,8 @@ const Page: FC = () => {
             <div className="flex items-start gap-3">
               <span className="text-2xl mt-1">🧠</span>
               <div>
-                <div className="font-bold text-gray-900 mb-1">Not for guys who've never obsessed over their hairline</div>
-                <div className="text-gray-600 text-sm">This is for the ones who've tracked every strand, compared every photo, and still felt dismissed by "experts."</div>
+                <div className="font-bold text-gray-900 mb-1">Not for guys with obvious bald spots</div>
+                <div className="text-gray-600 text-sm">This is for the ones losing density across the top, who’ve tracked every strand, feared bright lights, and still felt dismissed by “experts.”</div>
               </div>
             </div>
             {/* Created because nothing else worked */}
@@ -441,7 +452,7 @@ const Page: FC = () => {
             <span className="text-2xl mt-1">🔒</span>
             <div>
               <div className="font-bold text-gray-900 mb-1">Made for us — not them</div>
-              <div className="text-gray-600 text-sm">For the ones who stopped going out, avoided old friends, and still believe it's not too late to take back control.</div>
+              <div className="text-gray-600 text-sm">For the guys who avoided outings, skipped photos, felt invisible under harsh lighting — and still believe it’s not too late to take back control.</div>
             </div>
           </div>
         </div>
@@ -463,7 +474,7 @@ const Page: FC = () => {
           {/* Right: Product Details */}
           <div className="flex-1">
             <div className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Just One Serum + Microneedle, Once a Week</div>
-            <div className="text-green-600 font-semibold text-lg mb-2">Target the Real Root Causes of Hair Loss — and Finally See Growth That Lasts</div>
+            <div className="text-green-600 font-semibold text-lg mb-2">Target the Real Root Causes of Diffuse Thinning — and Finally See Growth That Lasts</div>
             <div className="text-gray-700 mb-3">This isn't another shampoo. It's not a placebo spray. It's a system designed to go beneath the surface — where the real damage is happening. OneFix Labs works by restoring the broken signals in your scalp: Blocking DHT. Interrupting PGD₂. Recharging blood flow. All delivered through precision microneedling — so it actually gets where it needs to go.</div>
             <div className="italic text-gray-600 mb-6">Formulated by real people who've lived through the hair loss spiral. Built for those who are still in it — and ready to fight back.</div>
             <button
@@ -489,19 +500,19 @@ const Page: FC = () => {
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🪞</span>
               <div className="font-bold text-green-700 mb-1">Mirror Relief</div>
-              <div className="text-gray-700 text-sm">You'll catch your reflection… and not flinch. No more scanning the hairline in dread.</div>
+              <div className="text-gray-700 text-sm">You’ll catch your reflection… and not flinch. No more scanning your scalp under brutal lighting, wondering if it’s getting worse.</div>
             </div>
             {/* Full, Feminine Hair */}
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🧠</span>
               <div className="font-bold text-green-700 mb-1">Mental Clarity</div>
-              <div className="text-gray-700 text-sm">When you're not obsessing over every shed hair, you can finally focus on life again.</div>
+              <div className="text-gray-700 text-sm">When you're not tracking every shed hair or obsessing over density, you get your focus — and your peace — back.</div>
             </div>
             {/* Mirror Moments */}
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🧬</span>
               <div className="font-bold text-green-700 mb-1">Scalp Feels Alive Again</div>
-              <div className="text-gray-700 text-sm">Less tension. Better blood flow. The surface feels healthier — because it is.</div>
+              <div className="text-gray-700 text-sm">Less tension. Better blood flow. The surface starts to feel healthier — because the environment is finally healing.</div>
             </div>
             {/* Self-Love Again */}
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
@@ -513,13 +524,13 @@ const Page: FC = () => {
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🔁</span>
               <div className="font-bold text-green-700 mb-1">Steady Progress</div>
-              <div className="text-gray-700 text-sm">Hair doesn't just grow — the whole environment changes. And it feels less like hope… more like momentum.</div>
+              <div className="text-gray-700 text-sm">Hair doesn’t just sprout — the whole system starts working again. And it feels less like blind hope, more like real momentum.</div>
             </div>
             {/* Dating Confidence */}
             <div className="bg-green-50 border border-green-200 rounded-xl p-2 md:p-4 relative">
               <span className="absolute top-3 right-3 bg-green-200 text-green-700 text-xs font-bold px-2 py-1 rounded-full">🛠️</span>
               <div className="font-bold text-green-700 mb-1">Made for Hair Loss Sufferers</div>
-              <div className="text-gray-700 text-sm">This isn't for everyone. It's for the ones who were dismissed, mocked, or told "just shave it." OneFix Labs was made for us.</div>
+              <div className="text-gray-700 text-sm">This isn’t for everyone. It’s for the ones who were dismissed, overlooked, or told to “just wait it out.” OneFix Labs was built for us.</div>
             </div>
           </div>
           <div className="flex justify-center">
@@ -764,16 +775,17 @@ const Page: FC = () => {
               <style jsx>{`
                 .letdown-strong-text { color: #1a1a1a; }
               `}</style>
-              <span className="letdown-strong-text">For decades, hair loss was brushed off as just "part of getting older." Something you were supposed to laugh off, shave off, or just live with.<br/><br/>
+              <span className="letdown-strong-text">For decades, diffuse thinning wasn’t even part of the conversation. Hair loss was brushed off as just “part of getting older.” Something you were supposed to laugh off, shave off, or just live with.<br/><br/>
               Doctors shrugged.<br/><br/>
+              Dermatologists focused on receding hairlines and bald spots — not fading density across the top.<br/><br/>
               Drugstore shelves filled with copy-paste shampoos. Forums offered hacks, oils, and sketchy stacks.<br/><br/>
-              But none of it actually worked — Because none of it addressed what was really happening beneath the surface.<br/><br/>
-              DHT overload. Blood-starved follicles. Hormonal blockades. Inflammation. That's the real reason hair stops growing — and why OneFix Labs was built to fix it.</span>
+              But none of it actually worked — because none of it addressed what was really happening beneath the surface.<br/><br/>
+              DHT overload. Blood-starved follicles. Hormonal blockades. Inflammation. That’s the real reason density fades strand by strand — and why OneFix Labs was built to fix it.</span>
             </div>
           </div>
           <div className="flex items-center gap-2 mb-2">
             <span className="text-green-600 text-lg">●</span>
-            <span className="font-bold text-lg md:text-xl text-gray-900">Hair Loss Isn't Just a Receding Hairline — It's a System Breakdown.</span>
+            <span className="font-bold text-lg md:text-xl text-gray-900">Diffuse Thinning Isn’t Just About Hair Loss — It's a System Breakdown.</span>
           </div>
           <div className="text-gray-900 mb-4">The truth is, men with hair loss face a perfect storm beneath the surface — deep in the biology of their scalp:</div>
           <ul className="mb-4">
